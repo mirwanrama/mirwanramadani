@@ -1,0 +1,477 @@
+body {
+    font-family: Viga;
+    background: linear-gradient(180deg, rgb(20, 70, 105), rgb(1, 16, 19));
+    height: 100vh;
+    color: white;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+    border-bottom: 5px solid rgba(15, 129, 182, 0.7);
+}
+
+.nav-link,
+.navbar-brand {
+    color: white;
+    text-shadow: 1.2px 1.2px 1.2px rgba(15, 129, 182, 0.7);
+}
+
+.menu {
+    color: brown;
+}
+
+/* ========== Jumbotron ========== */
+.jumbotron .text {
+    text-shadow: 1px 1px 1px rgba(15, 129, 182, 0.7);
+    color: rgb(223, 12, 170);
+}
+
+.jumbotron h1 {
+    text-shadow: 1.3px 1.3px 1.3px rgba(223, 12, 170, 0.7);
+    color: rgb(15, 129, 182);
+}
+
+.img-thumbnail {
+    background: linear-gradient(360deg, rgb(20, 70, 105), rgb(1, 16, 19)) fixed;
+    width: 300px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to top, rgb(223, 12, 170), rgb(20, 70, 105));
+    border-image-slice: 1;
+}
+
+/* ========== About Me ========== */
+.about {
+    background: linear-gradient(360deg, rgb(20, 70, 105), rgb(1, 16, 19));
+}
+
+.about h2 {
+    background-image: linear-gradient(to bottom, rgb(20, 70, 105), rgb(223, 12, 170), rgb(20, 70, 105));
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+.resume {
+    margin-top: 30px;
+}
+
+.resume button {
+    color: white;
+    background-color: rgba(15, 129, 182, 0.7);
+    font-size: 12px;
+    padding: 5px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to top, rgb(223, 12, 170), rgb(20, 70, 105), rgb(1, 16, 19));
+    border-image-slice: 1;
+}
+
+/* ========== Services ========== */
+#services {
+    background: linear-gradient(180deg, rgb(20, 70, 105), rgb(1, 16, 19));
+    padding: 70px 100px;
+}
+
+.services h2 {
+    background-image: linear-gradient(to bottom, rgb(20, 70, 105), rgb(223, 12, 170), rgb(20, 70, 105));
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+.icon-services,
+.icon-services h5 {
+    margin-top: 50px;
+}
+
+/* ========== My Project ========== */
+#project {
+    background: linear-gradient(360deg, rgb(20, 70, 105), rgb(1, 16, 19));
+}
+
+.project {
+    font-size: 20px;
+}
+
+.MyProject h2 {
+    background-image: linear-gradient(to bottom, rgb(20, 70, 105), rgb(223, 12, 170), rgb(20, 70, 105));
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+    margin-top: 70px;
+}
+
+.file-project a {
+    color: white;
+    text-decoration: none;
+}
+
+.file-project:hover {
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+/* ========== Contact ========== */
+.contact {
+    background: linear-gradient(180deg, rgb(20, 70, 105), rgb(1, 16, 19));
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact h2 {
+    background-image: linear-gradient(to top, rgb(20, 70, 105), rgb(223, 12, 170), rgb(20, 70, 105));
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+form .btn {
+    color: white;
+    background-color: rgba(15, 129, 182, 0.7);
+    font-size: 12px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom, rgb(223, 12, 170), rgb(1, 16, 19), rgb(20, 70, 105));
+    border-image-slice: 1;
+}
+
+/* ========== Social ========== */
+.social {
+    background: linear-gradient(360deg, rgb(20, 70, 105), rgb(1, 16, 19));
+    padding: 70px 50px;
+}
+
+.social h2 {
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right, rgb(20, 70, 105), rgb(223, 12, 170), rgb(20, 70, 105));
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+.sosmed-icon {
+    background: linear-gradient(45deg, rgb(20, 70, 105), rgb(72, 223, 253));
+    border: 2px solid rgb(1, 16, 19);
+    box-shadow: 1px 7px 10px 3px rgba(0, 0, 0, 0.64);
+    border-radius: 5px;
+    width: 40px;
+}
+
+.sosmed-icon:hover {
+    position: relative;
+    bottom: 3px;
+}
+
+/* ========== Footer ========== */
+.footer {
+    background: linear-gradient(360deg, rgb(20, 70, 105), rgb(1, 16, 19));
+}
+
+
+/* ================================================================================================= */
+/* Small devices (phones, 320px and up) */
+@media (min-width: 320px) {
+    .nav-link {
+        margin: 30px auto;
+    }
+
+    /* ========== Jumbotron ========== */
+    .display {
+        height: 100vh;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .jumbotron img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .jumbotron .lead {
+        font-size: 14px;
+    }
+
+    /* ========== About Me ========== */
+    .about {
+        padding: 70px 20px;
+        margin-top: -40px;
+    }
+
+    .img-about {
+        display: block;
+        margin: auto;
+    }
+
+    .about p {
+        font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about button {
+        display: block;
+        margin: auto;
+    }
+
+    /* ========== Services ========== */
+    #services {
+        padding-top: 70px;
+    }
+
+    .img-fluid {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    #project {
+        padding: 0 40px;
+    }
+
+    .col-file-project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .file-project {
+        width: 100%;
+        padding: 20px;
+        margin: 15px auto;
+        text-align: left;
+        border-radius: 5px;
+        background: linear-gradient(45deg, rgb(20, 70, 105), rgb(72, 223, 253));
+        box-shadow: 3px 10px 16px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    .file-project img {
+        width: 20px;
+        margin-bottom: 20px;
+    }
+
+    .file-project .project-title {
+        font-size: 16px;
+    }
+
+    .file-project .project-desc {
+        font-size: 12px;
+    }
+
+    .file-project hr {
+        height: 3px;
+        background-color: rgb(23, 55, 78);
+    }
+
+    .contact h2 {
+        margin-top: 50px;
+    }
+
+    .field {
+        padding: 10px 30px;
+    }
+
+    .text-contact {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    form .btn {
+        display: block;
+        margin: auto;
+        font-size: 14px;
+        padding: 8px 40px;
+    }
+
+    .sosmed-icon {
+        width: 30px;
+        display: block;
+        margin: auto;
+        padding: 4px;
+    }
+
+    .footer p {
+        font-size: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+/* ================================================================================================= */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .jumbotron .lead {
+        font-size: 18px;
+    }
+
+    .about {
+        padding: 70px 50px;
+    }
+
+    .about p {
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .img-fluid {
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    .project {
+        font-size: 16px;
+        padding: 30px 100px;
+    }
+
+    .project .by {
+        font-size: 10px;
+    }
+
+    .field {
+        padding: 10px 100px;
+    }
+
+    .text-contact {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    form .btn {
+        display: block;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .sosmed-icon {
+        width: 50px;
+        display: block;
+        margin: auto;
+        padding: 6px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+/* ================================================================================================= */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nav-link {
+        margin: 0 20px 0 0;
+    }
+
+    /* ========== Jumbotron ========== */
+    .display {
+        height: 100vh;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: left;
+        padding-top: 220px;
+    }
+
+    .jumbotron img {
+        width: 300px;
+        margin-top: -20px;
+    }
+
+    /* ========== About Me ========== */
+    .about {
+        padding: 70px 200px;
+    }
+
+    .about p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about button {
+        display: inline;
+    }
+
+    /* ========== Services ========== */
+
+    .img-fluid {
+        width: 100px;
+        margin-bottom: 15px;
+    }
+
+    .field {
+        padding: 10px 10px;
+    }
+
+    .text-contact {
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    #project {
+        padding: 0 100px;
+    }
+
+    .col-file-project {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .file-project {
+        width: 300px;
+        padding: 20px;
+        margin: 20px;
+        text-align: left;
+        border-radius: 5px;
+        background: linear-gradient(45deg, rgb(20, 70, 105), rgb(72, 223, 253));
+        box-shadow: 3px 10px 16px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    .file-project img {
+        width: 40px;
+        margin-bottom: 20px;
+    }
+
+    .file-project .project-title {
+        font-size: 20px;
+    }
+
+    .file-project .project-desc {
+        font-size: 14px;
+    }
+
+    .file-project hr {
+        height: 3px;
+        background-color: rgb(23, 55, 78);
+    }
+
+    .sosmed-icon {
+        width: 50px;
+        display: block;
+        margin: auto;
+        padding: 8px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+}
+
+/* ================================================================================================= */
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* ================================================================================================= */
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

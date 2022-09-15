@@ -1,0 +1,1 @@
+const CVButton = document.querySelector(".resume button").addEventListener("click", () => alert("Belum diuploud lurr, privasi."));
